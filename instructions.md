@@ -87,4 +87,11 @@ function main() {
 3. Click **Run**.  
 4. Grant any required permissions.
 
+
 ---
+
+
+
+### Tips
+1. If your email has wide margins change Page Margins from google Docs and set them to 0
+2. [Will add more as questions are asked or anyone encounters an issue]
