@@ -42,12 +42,12 @@ Me
 function sendEmails() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var data = sheet.getDataRange().getValues();
-  
+  var emailTemplate = getEmailTemplate();
+
   for (var i = 1; i < data.length; i++) {
     var email = data[i][0];
     var name = data[i][1];
     var note = data[i][2];
-    var emailTemplate = getEmailTemplate();
     var personalizedEmail = emailTemplate.replace("{name}", name).replace("{note}", note);
     sendEmail(email, personalizedEmail);
   }
