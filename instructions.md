@@ -95,3 +95,4 @@ function main() {
 ### Tips
 1. If your email has wide margins change Page Margins from google Docs and set them to 0
 2. [Will add more as questions are asked or anyone encounters an issue]
+3. in one time you can send about 100 emails unless you have a workspace account.
